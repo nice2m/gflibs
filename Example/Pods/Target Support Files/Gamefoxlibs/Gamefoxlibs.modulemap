@@ -1,0 +1,6 @@
+framework module Gamefoxlibs {
+  umbrella header "Gamefoxlibs-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,16 @@
+PODS:
+  - Gamefoxlibs (0.1.0)
+
+DEPENDENCIES:
+  - Gamefoxlibs (from `../`)
+
+EXTERNAL SOURCES:
+  Gamefoxlibs:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Gamefoxlibs: 39ce8b9a1b52ab6490433e6ede6efdbf6d63ed08
+
+PODFILE CHECKSUM: 41c6f8ae59d4d8f7bb8f1f6d0a3a06511e1a012d
+
+COCOAPODS: 1.5.3

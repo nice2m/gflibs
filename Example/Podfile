@@ -1,0 +1,6 @@
+use_frameworks!
+target 'Gamefoxlibs_Tests' do
+  pod 'Gamefoxlibs', :path => '../'
+  
+  
+end

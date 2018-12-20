@@ -26,7 +26,7 @@ Pod::Spec.new do |s|
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'gamefox' => 'bigtalent@163.com' }
   s.resource         = 'Gamefoxlibs/Assets/*'
-  s.source           = { :git => '/Users/leke-mac-mini/Desktop/demo/Gamefoxlibs/Gamefoxlibs',:tag => s.version.to_s}
+  s.source           = { :git => '/Users/leke-mac-mini/Desktop/demo/Gamefoxlibs',:tag => s.version.to_s}
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'

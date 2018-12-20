@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "NTPackageObj.h"
 
 FOUNDATION_EXPORT double GamefoxlibsVersionNumber;
 FOUNDATION_EXPORT const unsigned char GamefoxlibsVersionString[];

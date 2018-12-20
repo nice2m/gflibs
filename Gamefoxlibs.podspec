@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'gamefox' => 'bigtalent@163.com' }
-  s.resource         = 'GamefoxLib/Assets/*'
+  s.resource         = 'Gamefoxlibs/Assets/*'
   s.source           = { :git => '/Users/leke-mac-mini/Desktop/demo/Gamefoxlibs/Gamefoxlibs',:tag => s.version.to_s}
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
@@ -37,11 +37,32 @@ Pod::Spec.new do |s|
   #   'Gamefoxlibs' => ['Gamefoxlibs/Assets/*.png']
   # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
+  s.public_header_files = 'Gamefoxlibs/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
   
+  s.dependency 'YYKit'
+  s.dependency 'ReactiveCocoa', '~> 2.5'
   
+  s.dependency 'AFNetworking'
+  s.dependency 'DateTools'
+  s.dependency 'Masonry'
+  s.dependency 'RealReachability'
+  s.dependency 'FMDB'
+  
+  s.dependency 'Toast', '~> 4.0.0'
+  s.dependency 'MBProgressHUD'
+  s.dependency 'MJRefresh'
+  s.dependency 'SDWebImage'
+  s.dependency 'SDWebImage/GIF'
+  s.dependency 'FLAnimatedImage'
+  
+  s.dependency 'IQKeyboardManager'
+  s.dependency 'SDCycleScrollView','~> 1.75'
+  s.dependency 'TZImagePickerController'
+  s.dependency 'TOWebViewController'
+  s.dependency 'DZNEmptyDataSet'
+  s.dependency 'MLBPasswordTextField'
   
   
   #
